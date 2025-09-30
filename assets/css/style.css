@@ -1,0 +1,118 @@
+/* ========== Global Styles ========== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ffffff; /* White background */
+  color: #222;
+}
+
+header {
+  background-color: #3b0a45; /* Deep purple */
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #3b0a45;
+  background: #f3e8f7; /* Light lavender box */
+  padding: 0.5rem 1rem;
+  border-radius: 6px; /* Blunt corners */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem; /* space between icon and text */
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background: #d9b3e6;
+  color: #2a0832;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2, h1 {
+  color: #3b0a45; /* Deep purple headings */
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #66ccff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ========== Page-Specific Styles ========== */
+
+/* Media Page */
+.media figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+.media figcaption {
+  font-style: italic;
+  color: #444;
+}
+
+/* Extras Page */
+.extras table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+.extras th,
+.extras td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: left;
+}
+.extras th {
+  background-color: #f0e6f5; /* Subtle lavender shading */
+  color: #3b0a45;
+}
+.extras tr:nth-child(even) {
+  background-color: #faf7fc; /* very light purple striping */
+}
+.extras progress,
+.extras meter {
+  display: block;
+  margin: 0.5rem 0 1rem 0;
+  width: 100%;
+}
