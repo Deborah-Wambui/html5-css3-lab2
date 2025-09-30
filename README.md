@@ -8,7 +8,7 @@ media.html – Contains embedded audio and video for demonstration.
 extras.html – Includes a weekly study timetable (Monday–Friday) and progress bars for reading progress and course load.
 
 Styling 
-Light Purple background across all pages for a clean look.
+White background across all pages for a clean look.
 Headings styled with deep purple for emphasis.
 Navigation menu with icons inside soft, colored boxes.
 Subtle shading added to the timetable for better readability.
@@ -16,6 +16,6 @@ Progress bars styled in deep purple with shorter lengths for neatness.
 Consistent margin and alignment so content lines up neatly with the header.
 
 Deliverables
-Published Docker image: https://hub.docker.com/r/debbiewambui/html5-css3-lab2/tags 
-
-
+Published docker image: https://hub.docker.com/r/debbiewambui/html5-css3-lab2/tags
+Public GitHub page url: https://deborah-wambui.github.io/html5-css3-lab2/
+GitHub repository link: https://github.com/Deborah-Wambui/html5-css3-lab2
